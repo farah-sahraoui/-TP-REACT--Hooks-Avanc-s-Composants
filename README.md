@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# TP REACT - Hooks Avancés & Composants
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ce projet a été réalisé dans le cadre d'un TP sur les concepts avancés de React,
+incluant les Hooks (useReducer, useRef, useEffect, Hooks personnalisés), la
+composition de composants (HOC, Render Props), les tests unitaires et d'intégration.
 
-## Available Scripts
+## APERÇU DES COMPOSANTS:
 
-In the project directory, you can run:
+### 1. COMPTEUR INTELLIGENT (useReducer)
 
-### `npm start`
+![WhatsApp Image 2026-03-20 at 11 46 54](https://github.com/user-attachments/assets/02f79f10-fde2-46f6-b5e4-a78ef23abb59)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2. FOCUS ANIMAUX (useRef);
+![WhatsApp Image 2026-03-20 at 11 50 27](https://github.com/user-attachments/assets/5f3494fe-28e0-4c99-a358-1ce0367c8078)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 3. ANALYSEUR DE PERFORMANCE REACT (useEffect):
+![WhatsApp Image 2026-03-20 at 11 51 08](https://github.com/user-attachments/assets/b01ffd18-9b4c-4a9a-8540-f750aea79fee)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 4. APPLICATION MÉTÉO CONNECTÉE (Hooks Personnalisés)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ ![WhatsApp Image 2026-03-20 at 11 51 51](https://github.com/user-attachments/assets/ceabb23e-9069-47b1-b782-fc4f0f73244c)
 
-### `npm run eject`
+### 5. CHRONOMÈTRE INTELLIGENT
+![WhatsApp Image 2026-03-20 at 11 58 52](https://github.com/user-attachments/assets/93e4292e-0106-4c69-82a1-709437fae430)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## CONCLUSION:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Ce TP a permis d'explorer et de mettre en pratique les concepts avancés de React
+à travers plusieurs composants fonctionnels :
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. JSX et sa transformation : Compréhension de la syntaxe JSX et de son équivalent
+   en JavaScript pur via React.createElement.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Higher-Order Components (HOC) : Création d'un composant withLogging qui ajoute
+   une fonctionnalité de logging à n'importe quel composant.
 
-## Learn More
+3. Render Props : Implémentation d'un DataLoader flexible utilisant le pattern
+   render props pour afficher des données.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Tests unitaires et d'intégration : Écriture de tests avec Jest et React Testing
+   Library pour valider le comportement des composants.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. Hooks Avancés :
+   - useReducer : Gestion d'état complexe pour le compteur intelligent
+   - useRef : Manipulation directe du DOM pour le focus sur les messages animaux
+   - useEffect : Gestion des effets secondaires pour l'analyseur de performance
+   - Hooks personnalisés : Création de logique réutilisable pour la météo
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Ce projet démontre comment combiner ces différentes approches pour construire des
+applications React robustes, maintenables et testables, tout en respectant les
+bonnes pratiques de développement.
